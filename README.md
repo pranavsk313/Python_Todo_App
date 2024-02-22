@@ -2,8 +2,7 @@
 ## Deployed containerized Python-Django application using Docker
 # Step 1 
 1] Clone The repository into your local terminal 
-
-   bash 
+```bash 
 $ git clone https://github.com/shreys7/django-todo.git
 
 2] Cloned the repository into My Vscode integrated terminal
