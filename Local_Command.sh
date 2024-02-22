@@ -1,9 +1,9 @@
 sudo yum update all 
 mkdir projects 
 cd projects
+sudo yum install git
 git clone https://github.com/shreys7/django-todo.git
-
-sudo yum install pip git
+sudo yum install pip
 sudo yum install python3-pip
 sudo pip install django
 python3 manage.py migrate 
