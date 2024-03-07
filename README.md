@@ -7,7 +7,7 @@
 ```
 ![image](https://github.com/pranavsk313/Python_Todo_App/assets/122976840/65cf59a6-395a-4ab5-843d-c2d3627f09b9)
 
-2] Installed the Virtual enviroment into your local terminal  
+2] Installed the virtual enviroment into your local terminal  
 ```bash
 $ pip install virtualenv
 ```
@@ -46,15 +46,15 @@ $ python manage.py runserver
 11] Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 # Step 2
-1] Lauched the Ec2 instance on Red Hat Linux 
+1] Lauched the EC2 instance on Red Hat Linux 
 
 ![image](https://github.com/pranavsk313/Python_Todo_App/assets/122976840/f54520bf-fe01-43e4-860d-52f97790e7df)
 
-2]  Clone the repository And get into it
+2]  Clone the repository and get into it
 ```bash
  $ git clone https://github.com/shreys7/django-todo.git
 ```
-3] Installed docker on Ec2 instace 
+3] Installed docker on EC2 instance 
 
 ![image](https://github.com/pranavsk313/Python_Todo_App/assets/122976840/cca6faa3-7fe2-4f1a-a00f-78864221587a)
 
@@ -64,7 +64,7 @@ $ vi dockerfile
 ```
 ![image](https://github.com/pranavsk313/Python_Todo_App/assets/122976840/1f8ea38f-d12c-4fcb-a1c9-235972d2a513)
 
-5] Edited The inbound rules of Security groups in AWS
+5] Edited the inbound rules of Security groups in AWS
 
 ![image](https://github.com/pranavsk313/Python_Todo_App/assets/122976840/42f3fd18-1ab6-4f9b-8b4e-830af8a9eb8e)
 
@@ -77,7 +77,7 @@ $ docker build . -t todo-app
 $ docker run -itd --name Python-Django-App -p 8001:8001 <image-id>
 ```
 # Step 3
-1]  Access Your application using public ip of Ec2 instance 
+1]  Access your application using public ip of EC2 instance 
     
     https:// <public-ip>:8001
 
